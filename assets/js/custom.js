@@ -64,17 +64,17 @@
 
 		$("#csd").click(function () {
 			$('html, body').animate({
-				scrollTop: $("#csd").offset().top
+				scrollTop: $("#features").offset().top - 120
 			}, 500);
 		});
 		$("#wd").click(function () {
 			$('html, body').animate({
-				scrollTop: $("#web-development").offset().top - 130
+				scrollTop: $("#web-development").offset().top - 120
 			}, 500);
 		});
 		$("#dm").click(function () {
 			$('html, body').animate({
-				scrollTop: $("#dm").offset().top
+				scrollTop: $("#digital-marketing").offset().top - 120
 			}, 500);
 		});
 

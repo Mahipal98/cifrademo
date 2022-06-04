@@ -900,9 +900,9 @@ features
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
+  width: 64px;
+  height: 64px;
+  /* line-height: 90px; */
   margin: auto;
   position: relative;
   margin-bottom: 30px;
@@ -1283,8 +1283,8 @@ team
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   position: relative;
-  margin-bottom: 30px;
-  padding-bottom: 25px;
+  height: 8rem;
+  display: flex;
 }
 
 .team-item:hover .team-content .team-info {
@@ -1292,12 +1292,14 @@ team
 }
 
 .team-item i {
-  display: block;
+  display: flex;
+  width: 3rem;
   margin-left: 25px;
-  margin-top: 25px;
   font-size: 30px;
   color: #4e47de;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-item .user-image {
@@ -1316,8 +1318,12 @@ team
 }
 
 .team-item .team-content {
-  text-align: left;
+  text-align: center;
+  padding: auto 0;
   overflow: hidden;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .team-item .team-content .team-info {
@@ -1353,10 +1359,11 @@ team
   padding-right: 25px;
   margin-bottom: 25px;
   font-weight: 400;
-  font-size: 15px;
-  color: #777;
+  font-size: 1.25rem;
+  /* color: #777; */
   letter-spacing: 0.6px;
   line-height: 26px;
+  text-align: left;
 }
 
 /* 
