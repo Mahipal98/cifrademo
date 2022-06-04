@@ -233,8 +233,8 @@ body {
 }
 
 .left-heading .section-title {
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 900;
+  font-size: 2.5rem;
   line-height: 42px;
   color: #1e1e1e;
   letter-spacing: 0.25px;
@@ -247,8 +247,8 @@ body {
 }
 
 .center-heading .section-title {
-  font-weight: 500;
-  font-size: 28px;
+  font-weight: 900;
+  font-size: 2.5rem;
   color: #1e1e1e;
   letter-spacing: 1.75px;
   line-height: 38px;
@@ -551,7 +551,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: rgba(88, 64, 151, 255);
 }
 
 .header-area .main-nav .menu-trigger {
@@ -663,7 +663,8 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  /* color: #ff589e; */
+  color: rgba(88, 64, 151, 255);
 }
 
 @media (max-width: 1200px) {
@@ -875,6 +876,7 @@ features
   transition: all 0.3s ease 0s;
   position: relative;
   margin-bottom: 30px;
+  height: 15rem;
 }
 
 .features-small-item:hover{
@@ -1019,7 +1021,7 @@ parallax & home seperator
 .mini .mini-content .info h1 {
   color: #fff;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 2.75rem;
   letter-spacing: 0.25px;
   margin-bottom: 30px;
 }
@@ -1041,6 +1043,7 @@ parallax & home seperator
 .mini .mini-content .mini-box {
   display: block;
   background: #fff;
+  height: 22rem;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -1098,6 +1101,11 @@ parallax & home seperator
   right: -20px;
   margin: auto;
   border-radius: 20px;
+}
+
+.mini .mini-content .mini-box img {
+  height: 32px;
+  width: 32px;
 }
 
 .mini .mini-content .mini-box i {
@@ -1609,7 +1617,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient( 45deg, rgb(37, 150, 190) 0%, rgba(88, 64, 151, 255) 50%, rgba(113, 69, 155, 255) 100% );
   padding-top: 30px;
 }
 
