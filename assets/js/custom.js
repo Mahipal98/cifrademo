@@ -77,6 +77,11 @@
 				scrollTop: $("#digital-marketing").offset().top - 120
 			}, 500);
 		});
+`
+		// $(".logo").click(function () {
+		// 	window.scrollTo(0,0);
+		// 	// $('html, body').animate({ scrollTop: 0 }, 'fast');
+		// });`
 
 	});
 
